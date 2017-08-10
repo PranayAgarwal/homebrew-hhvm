@@ -10,6 +10,7 @@ class Hhvm < Formula
   bottle do
     root_url "https://github.com/PranayAgarwal/homebrew-hhvm/releases/download/v3.21.0"
     sha256 "6ff0f9b6ba19a82a6a60809c53917d1077f4c7fcb72a4d1d8bfbf49f5c137354" => :sierra
+    sha256 "8f6d32596309baeb43afbf928b0e2b87f62aaab86f69e9aa00f9e84972cb51be" => :el_capitan
   end
 
   option "with-debug", <<-EOS.undent
